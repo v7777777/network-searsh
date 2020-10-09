@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/network?serverTimezone=UTC
+    username: root
+    password: 1234567
+  jpa:
+    show-sql: true
+
+link: "http://localhost:8080/change-password"
+
+upload:
+  path: "C:/Users/vitta/Desktop/Storage"
